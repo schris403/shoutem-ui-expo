@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Image, Modal, TouchableOpacity, View } from 'react-native';
+import { ImagePropTypes } from 'deprecated-react-native-prop-types';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import autoBindReact from 'auto-bind/react';
 import PropTypes from 'prop-types';
@@ -11,7 +12,7 @@ const ZoomableImage = makeZoomable(Image);
 const propTypes = {
   width: PropTypes.number,
   height: PropTypes.number,
-  source: Image.propTypes.source,
+  source: ImagePropTypes.source,
   style: PropTypes.object,
 };
 
