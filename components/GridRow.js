@@ -1,7 +1,8 @@
 import React, { PureComponent, Children } from 'react';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
-import { View as RNView, ViewPropTypes } from 'react-native';
+import { View as RNView } from 'react-native';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import { connectAnimation } from '@shoutem/animation';
 import { connectStyle } from '@shoutem/theme';
 import { View } from './View';
