@@ -1,5 +1,4 @@
 import { Dimensions, Platform } from 'react-native';
-import { hasNotch } from 'react-native-device-info';
 import _ from 'lodash';
 import {
   IPHONE_12_LONG_SIDE,
@@ -31,8 +30,6 @@ const isIphoneXR =
   !isTVOS &&
   (xrDimensionsMatch || twelveDimensionsMatch || twelveMaxDimensionsMatch);
 
-const isNotchedAndroid = OS === 'android' && hasNotch();
-
 /**
  * Receives settings for different devices
  * If the device is recognized, it returns only settings for that device
@@ -51,16 +48,11 @@ function select(settings) {
     return settings.iPhoneXR;
   }
 
-  if (settings.notchedAndroid && isNotchedAndroid) {
-    return settings.notchedAndroid;
-  }
-
   return _.get(settings, 'default');
 }
 
 export const Device = {
   isIphoneX,
   isIphoneXR,
-  isNotchedAndroid,
   select,
 };
