@@ -1,7 +1,7 @@
 {
-  "name": "@shoutem/ui",
-  "version": "4.9.2",
-  "description": "Styleable set of components for React Native applications",
+  "name": "shoutem-ui-expo",
+  "version": "4.9.6",
+  "description": "Styleable set of components for React Native applications - Updated for React Expo client",
   "scripts": {
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
@@ -24,15 +24,15 @@
     "lodash": "4.17.21",
     "prop-types": "15.8.1",
     "qs": "6.9.3",
-    "react-native-lightbox": "shoutem/react-native-lightbox#v0.7.2",
+    "react-native-lightbox": "github:shoutem/react-native-lightbox#v0.7.2",
     "react-native-linear-gradient": "2.5.6",
     "react-native-modal": "11.7.0",
-    "react-native-photo-view": "shoutem/react-native-photo-view#0ffa1481f6b6cb8663cb291b7db1d6644440584d",
+    "react-native-photo-view": "github:shoutem/react-native-photo-view#0ffa1481f6b6cb8663cb291b7db1d6644440584d",
     "react-native-render-html": "4.2.5",
     "react-native-render-html-table-bridge": "0.6.0",
     "react-native-svg": "13.9.0",
     "react-native-svg-transformer": "0.14.3",
-    "react-native-transformable-image": "shoutem/react-native-transformable-image#v0.0.20",
+    "react-native-transformable-image": "github:shoutem/react-native-transformable-image#v0.0.20",
     "react-native-vector-icons": "6.6.0",
     "react-native-webview": "13.2.2",
     "react-native-youtube-iframe": "2.1.2",
@@ -80,46 +80,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:shoutem/ui.git"
+    "url": "git+ssh://git@github.com/shoutem/ui.git"
   },
   "license": "BSD-3-Clause",
   "maintainers": [
-    {
-      "email": "bruna.andjelic@gmail.com",
-      "name": "bAndelic"
-    },
-    {
-      "email": "belma.dzi@gmail.com",
-      "name": "morrigan"
-    },
-    {
-      "email": "luka.bracanovic@shoutem.com",
-      "name": "MrBr"
-    },
-    {
-      "email": "ivan@shoutem.com",
-      "name": "SoHotSoup"
-    },
-    {
-      "email": "tomislav.tenodi@shoutem.com",
-      "name": "tenodi"
-    },
-    {
-      "email": "vladimir@shoutem.com",
-      "name": "Vunovati"
-    },
-    {
-      "email": "vlad@definitely-not-vlad.com",
-      "name": "Definitely-Not-Vlad"
-    },
-    {
-      "email": "zeljko@shoutem.com",
-      "name": "zrumenjak"
-    },
-    {
-      "email": "tomislav.arambasic@shoutem.com",
-      "name": "tomislav-arambasic"
-    }
+    "bAndelic <bruna.andjelic@gmail.com>",
+    "morrigan <belma.dzi@gmail.com>",
+    "MrBr <luka.bracanovic@shoutem.com>",
+    "SoHotSoup <ivan@shoutem.com>",
+    "tenodi <tomislav.tenodi@shoutem.com>",
+    "Vunovati <vladimir@shoutem.com>",
+    "Definitely-Not-Vlad <vlad@definitely-not-vlad.com>",
+    "zrumenjak <zeljko@shoutem.com>",
+    "tomislav-arambasic <tomislav.arambasic@shoutem.com>"
   ],
   "eslintConfig": {
     "extends": "@shoutem/react-native",
@@ -134,5 +107,10 @@
     "jsxBracketSameLine": false,
     "singleQuote": true,
     "trailingComma": "all"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "author": ""
 }
