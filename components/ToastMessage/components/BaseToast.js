@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
 import { connectStyle } from '@shoutem/theme';
-import { Icon, Image, Text, Touchable, View } from '@shoutem/ui';
+import { Icon, Image, Text, Touchable, View } from '@shoutem-ui-expo';
 import ToastProgressBar from './ToastProgressBar';
 
 function BaseToast({

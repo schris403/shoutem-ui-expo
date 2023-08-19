@@ -3,7 +3,7 @@ import autoBindReact from 'auto-bind/react';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
 import { connectStyle } from '@shoutem/theme';
-import { Text, Title, View } from '@shoutem/ui';
+import { Text, Title, View } from 'shoutem-ui-expo';
 import EmptyList from '../assets/images/emptyList.svg';
 
 class EmptyListImage extends PureComponent {

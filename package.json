@@ -1,7 +1,7 @@
 {
-  "name": "@shoutem/ui",
-  "version": "6.1.2",
-  "description": "Styleable set of components for React Native applications",
+  "name": "shoutem-ui-expo",
+  "version": "4.9.7",
+  "description": "Styleable set of components for React Native applications - Updated for React Expo client",
   "scripts": {
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",

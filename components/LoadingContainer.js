@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import LottieView from 'lottie-react-native';
 import PropTypes from 'prop-types';
 import { connectStyle } from '@shoutem/theme';
-import { View } from '@shoutem/ui';
+import { View } from '@shoutem-ui-expo';
 import { animations } from '../assets';
 
 function LoadingContainer({

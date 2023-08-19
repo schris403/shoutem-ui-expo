@@ -18,7 +18,7 @@ Most of the time, you will want to use one of the four standard methods of showi
 Each of these accepts same set or props / params, but implements different styling and color schemes, according to it's semantic significance. Below are a couple of examples of commonly used methods.
 
 ```jsx
-import { Toast } from '@shoutem/ui';
+import { Toast } from '@shoutem-ui-expo';
 ...
 Toast.showInfo({
   title: 'Hello world!',
@@ -31,7 +31,7 @@ Toast.showInfo({
 ```
 
 ```jsx
-import { Toast } from '@shoutem/ui';
+import { Toast } from '@shoutem-ui-expo';
 ...
 Toast.showAlert({
   title: 'Stop',
@@ -49,7 +49,7 @@ Toast.showAlert({
 ```
 
 ```jsx
-import { Toast } from '@shoutem/ui';
+import { Toast } from '@shoutem-ui-expo';
 ...
 Toast.showError({
   title: 'Error',
